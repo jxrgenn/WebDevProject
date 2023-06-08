@@ -1,0 +1,126 @@
+/* adminPage.css */
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1,h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Date picker styles */
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.date-picker label {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+.date-picker input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button-container button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Room block styles */
+.room-block {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-details {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.room-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.booking-id,
+.check-in-date,
+.check-out-date {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
